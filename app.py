@@ -7,4 +7,3 @@ def index():
     return '<h1>Hello WSB! Greetings from Flask!</h1>'
 if name == "main":
     app.run(debug=True)
-    
