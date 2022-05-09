@@ -1,9 +1,9 @@
 """kom"""
 from flask import Flask
-app = Flask(name)
+app = Flask(__name__)
 @app.route('/')
 def index():
     """kom"""
     return '<h1>Hello WSB! Greetings from Flask!</h1>'
-if name == "main":
+if __name__ == "__main__":
     app.run(debug=True)
